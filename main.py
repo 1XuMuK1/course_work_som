@@ -21,7 +21,7 @@ def main():
 
 
 def som(problem, iterations, learning_rate=0.8):
-    """Решите TSP с помощью самоорганизующейся карты"""
+    """Решение TSP с помощью самоорганизующейся карты"""
     # Получаем нормализованный набор городов (с координатами в [0,1])
     cities = problem.copy()
     cities[['x', 'y']] = normalize(cities[['x', 'y']])
